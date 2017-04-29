@@ -1,0 +1,123 @@
+
+body {
+	background-color: #04324f;
+}
+
+h1 {
+	color: white;
+	margin: 0 auto;
+	padding-left: 65px; 
+}
+
+p {
+	color: white;
+}
+
+#click {
+	color: white;
+	text-align: center;
+}
+
+#wiki_functions {
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 50px; 
+	width: 450px;
+}
+
+.random {
+	width: 275px;
+	height: 90px;
+	margin: 0 auto;
+	margin-top: 20px; 
+	margin-bottom: 25px; 
+	border: 2px dashed white;
+	border-radius: 6px;
+	pointer: cursor;
+}
+
+#wiki-random {
+	padding: 10px 10px;
+	padding-right: 0px; 
+}
+
+.random p{
+	display: inherit; 
+}
+
+#wiki-random {
+	display: inline-block;
+	float: left;
+}
+
+form {
+	padding-left: 90px; 
+}
+
+#search-term, #category-term {
+	width: 200px;
+	height: 20px;
+}
+
+#search-button, #category-button {
+	height: 27px;
+	width: 75px;
+}
+
+#category-explanation {
+	text-align: center;
+	padding-top: 25px; 
+	color: crimson;
+}
+
+#category-paragraph {
+	padding: 20px 10px 25px 15px;
+	border: 2px dashed white;
+	border-radius: 6px;
+	font-size: 18px;
+}
+
+#category-paragraph a {
+	color: crimson;
+	pointer: cursor;
+}
+
+#output {
+	background-color: brown; 
+	color: grey;
+	width: 75%;
+	margin: 0 auto;
+}
+
+#output li {
+	color: sandybrown;
+	list-style: none; 
+}
+
+#output li:first-child {
+	padding-top: 10px;
+}
+
+#output li:last-child {
+	padding-bottom: 10px; 
+}
+
+#output li a {
+	color: sandybrown;
+}
+
+#output li p {
+	color: wheat;
+	padding-right: 5px; 
+}
+
+.footer {
+	width: 450px;
+	padding-top: 10px;  
+	margin: 0 auto;
+}
+
+#footer-name a {
+	color: white;
+	padding-left: 145px; 
+}

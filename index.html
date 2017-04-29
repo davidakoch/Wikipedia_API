@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia API page</title>
+	<meta name="description" content="A random article api page with Wikipedia's API">
+	<script src="https://use.fontawesome.com/725abd0501.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+	<script src="script2.js"></script>
+	<script src="script4.js"></script>
+</head>
+<body>
+	<main>
+		<div id="wiki_functions">
+			<h1>Wikipedia API Search</h1>
+			<div class="random">
+				<a href="https://en.wikipedia.org/wiki/Special:Random
+				" id = "wiki-random" target="_blank">
+				<i class="fa fa-wikipedia-w fa-4x"></i>
+				</a>
+				<p id="click">Click icon for random article</p>
+			</div>
+			<br>
+			<form id="wiki_search">
+				<input type="text" placeholder="Search Wikipedia by Article" id="search-term">
+				<button id="search-button" type="button">Submit</button>
+			</form>
+			<h2 id="category-explanation">Explanation of using WikiCategories</h2>
+			<p id="category-paragraph">Every article on Wikipedia is placed into groups, or <a href="https://en.wikipedia.org/wiki/Wikipedia:FAQ/Categorization">categories</a>. For instance, the article on <a href="https://en.wikipedia.org/wiki/Stranger_Things">"Stranger Things"</a> is placed into the category of <a href="https://en.wikipedia.org/wiki/Category:American_science_fiction_television_series">"American science fiction television series"</a> among others (10 to be exact). By typing in "Stranger Things" and clicking 'Submit' below, you will find all the Wikipedia categories for "Stranger Things".
+			<i>THIS IS A WORK STILL IN PROGRESS</i></p>
+			<form id="wiki_category">
+				<input type="text" placeholder="Find an article's categories" id="category-term">
+				<button id="category-button" type="button">Submit</button>
+			</form>
+		</div>
+		<ul id="output">
+			
+		</ul>
+		<div class="footer">
+			<span id="footer-name"><a href="https://github.com/davidakoch">Created by david a koch</a></span>
+		</div>
+	</main>
+</body>
+</html>

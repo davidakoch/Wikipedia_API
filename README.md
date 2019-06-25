@@ -9,6 +9,6 @@ The code for Script 4 was written to improve the Wikipedia API. First, it does n
 
 here is the link:
 
-https://davidakoch.github.io/
+https://davidakoch.github.io/Wikipedia_API/
 
 
